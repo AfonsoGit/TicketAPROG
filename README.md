@@ -20,7 +20,7 @@ typedef struct reparacao
 	char equip_rep;
 	char obs[100];	
 };
-reparacao reparacao1[100];
+struct reparacao reparacao1[100];
 typedef struct  entrega
 {
 	char servico_ent;
@@ -36,7 +36,7 @@ typedef struct  entrega
 	char cond_ent[100];
 	float valor_pagar;
 };
-entrega entrega1[100];
+struct entrega entrega1[100];
 
 //Gerar tickets de entrega
 int ticket_entrega()
